@@ -43,6 +43,7 @@ SQL-Practice/
 ├── 07_Window_Functions/
 ├── 08_CTEs/
 ├── 09_LeetCode_SQL/
+├── 10_Practice_Datasets ⭐
 └── Mini_Projects/
 ```
 
