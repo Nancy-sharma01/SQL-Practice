@@ -72,7 +72,7 @@ SQL-Practice/
 
 | Topic               | Status        |
 | ------------------- | ------------- |
-| SQL Basics          | ⏳ In Progress |
+| SQL Basics          | ✅            |
 | Filtering Data      | ⏳             |
 | Aggregate Functions | ⏳             |
 | GROUP BY & HAVING   | ⏳             |
