@@ -82,3 +82,54 @@ Created and manipulated a `student` table with student records to practice datab
 * [x] Retrieve data
 
 **Next:** `SELECT` queries, `WHERE`, filtering, comparison operators, `ORDER BY`, and `LIMIT`.
+
+---
+
+## 📅 Day 02 — SQL Constraints
+
+**Date:** August 12, 2026
+
+### 📚 Topics Covered
+
+- `UNIQUE` constraint
+- `PRIMARY KEY` (revision)
+- `DEFAULT` constraint
+- Using `SELECT` to verify inserted data
+
+### 💻 Commands Practiced
+
+```sql
+CREATE TABLE temp(
+    id INT UNIQUE
+);
+
+INSERT INTO temp VALUES (101);
+
+CREATE TABLE temp1(
+    id INT,
+    name VARCHAR(50),
+    age INT,
+    city VARCHAR(20),
+    PRIMARY KEY(id)
+);
+
+CREATE TABLE emp(
+    id INT,
+    salary INT DEFAULT 25000
+);
+
+INSERT INTO emp(id)
+VALUES (1);
+
+SELECT * FROM emp;
+```
+
+### 🧠 Key Learnings
+
+- `UNIQUE` prevents duplicate values in a column.
+- `PRIMARY KEY` uniquely identifies each row and does not allow `NULL` values.
+- `DEFAULT` automatically assigns a value when none is provided during insertion.
+
+### 🎯 Practice
+
+Created multiple tables using different constraints and observed their behavior by inserting records and retrieving data.
