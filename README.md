@@ -72,12 +72,10 @@ SQL-Practice/
 
 ---
 
-## 📈 Progress Tracker
-
 | Topic | Status |
 |--------|--------|
-| SQL Basics | 🔄 In Progress |
-| Filtering Data | ⏳ Not Started |
+| SQL Basics (Databases, Tables & Constraints) | ✅ Completed |
+| SELECT & Filtering (WHERE, ORDER BY, LIMIT, DISTINCT) | ✅ Completed |
 | Aggregate Functions | ⏳ Not Started |
 | GROUP BY & HAVING | ⏳ Not Started |
 | JOINS | ⏳ Not Started |
