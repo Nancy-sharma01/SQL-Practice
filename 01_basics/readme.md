@@ -133,3 +133,84 @@ SELECT * FROM emp;
 ### 🎯 Practice
 
 Created multiple tables using different constraints and observed their behavior by inserting records and retrieving data.
+
+---
+
+# Day 03 - SELECT Queries & Filtering 🔍
+
+## 📚 Topics Covered
+
+- Creating Tables
+- Inserting Records
+- SELECT Statement
+- DISTINCT
+- WHERE Clause
+- Comparison Operators
+- Logical Operators (AND, OR)
+- Arithmetic Operators in WHERE
+- BETWEEN
+- IN & NOT IN
+- LIMIT
+- ORDER BY (ASC & DESC)
+
+---
+
+## 💻 Practice Queries
+
+### Creating Table
+
+- CREATE TABLE
+- PRIMARY KEY
+- NOT NULL
+
+### Inserting Data
+
+- INSERT INTO
+- Multiple Row Insert
+
+### SELECT
+
+- Select specific columns
+- Select all columns
+- DISTINCT values
+
+### WHERE Clause
+
+- Filtering using comparison operators
+- AND
+- OR
+- Arithmetic expressions
+- BETWEEN
+- IN
+- NOT IN
+
+### LIMIT
+
+- Retrieve first N rows
+- Combine LIMIT with WHERE
+
+### ORDER BY
+
+- Ascending order
+- Descending order
+- Top N records using ORDER BY + LIMIT
+
+---
+
+## ✅ Concepts Learned
+
+- Difference between `SELECT *` and selecting specific columns.
+- Using `DISTINCT` to remove duplicate values.
+- Filtering records with `WHERE`.
+- Combining conditions using `AND` and `OR`.
+- Using `BETWEEN`, `IN`, and `NOT IN`.
+- Sorting data using `ORDER BY`.
+- Retrieving limited records with `LIMIT`.
+
+---
+
+## 🚀 Progress
+
+- ✅ Day 01 — SQL Basics & Databases
+- ✅ Day 02 — Constraints (PRIMARY KEY, UNIQUE, DEFAULT, CHECK)
+- ✅ Day 03 — SELECT, WHERE, LIMIT & ORDER BY
