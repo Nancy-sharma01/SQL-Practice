@@ -76,8 +76,8 @@ SQL-Practice/
 |--------|--------|
 | SQL Basics (Databases, Tables & Constraints) | ✅ Completed |
 | SELECT & Filtering (WHERE, ORDER BY, LIMIT, DISTINCT) | ✅ Completed |
-| Aggregate Functions | ⏳ Not Started |
-| GROUP BY & HAVING | ⏳ Not Started |
+| Aggregate Functions | ✅ Completed |
+| GROUP BY & HAVING | ✅ Completed |
 | JOINS | ⏳ Not Started |
 | Subqueries | ⏳ Not Started |
 | Window Functions | ⏳ Not Started |
