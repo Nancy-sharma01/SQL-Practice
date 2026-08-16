@@ -36,18 +36,16 @@ This repository documents my journey of learning SQL for **Software Development*
 ```text
 SQL-Practice/
 │
-├── README.md
-├── 01_Basics/
-├── 02_Filtering/
-├── 03_Aggregate_Functions/
-├── 04_Group_By/
-├── 05_Joins/
-├── 06_Subqueries/
-├── 07_Window_Functions/
-├── 08_CTEs/
-├── 09_LeetCode_SQL/
-├── 10_Practice_Datasets/
-└── Mini_Projects/
+├──01_Basics
+├──02_Joins
+├──03_Subqueries
+├──04_Window_Functions
+├──05_CTEs
+├──06_Views
+├──07_Indexes
+├──08_SQL_Optimization
+├──09_LeetCode_SQL
+├──10_Mini_Projects
 ```
 
 ---
