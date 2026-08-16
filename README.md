@@ -12,19 +12,19 @@ This repository documents my journey of learning SQL for **Software Development*
 
 ## 📚 Learning Roadmap
 
-- [x] SQL Basics *(In Progress)*
-- [ ] SELECT Statements
-- [ ] Filtering Data (`WHERE`)
-- [ ] Sorting (`ORDER BY`)
-- [ ] Aggregate Functions
-- [ ] GROUP BY & HAVING
+- [x] SQL Basics
+- [x] Creating Tables & Constraints
+- [x] SELECT Statements
+- [x] Filtering Data (`WHERE`)
+- [x] Sorting (`ORDER BY`)
+- [x] Aggregate Functions
+- [x] GROUP BY & HAVING
 - [ ] JOINS
 - [ ] Subqueries
 - [ ] Common Table Expressions (CTEs)
 - [ ] Window Functions
 - [ ] Views
 - [ ] Indexes
-- [ ] Constraints
 - [ ] SQL Optimization
 - [ ] LeetCode SQL Problems
 - [ ] Mini Projects
