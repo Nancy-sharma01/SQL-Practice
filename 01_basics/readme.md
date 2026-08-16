@@ -214,3 +214,61 @@ Created multiple tables using different constraints and observed their behavior 
 - ✅ Day 01 — SQL Basics & Databases
 - ✅ Day 02 — Constraints (PRIMARY KEY, UNIQUE, DEFAULT, CHECK)
 - ✅ Day 03 — SELECT, WHERE, LIMIT & ORDER BY
+
+---
+
+# Day 04 - Aggregate Functions, GROUP BY & HAVING 📊
+
+## 📚 Topics Covered
+
+- Aggregate Functions
+  - `MAX()`
+  - `MIN()`
+  - `AVG()`
+  - `COUNT()`
+- `GROUP BY`
+- `HAVING`
+- Sorting grouped data using `ORDER BY`
+
+---
+
+## 💻 Practice Queries
+
+### 📊 Aggregate Functions
+
+- Find maximum value using `MAX()`
+- Find minimum value using `MIN()`
+- Calculate average using `AVG()`
+- Count records using `COUNT()`
+
+### 🗂️ GROUP BY
+
+- Group records by city
+- Count students in each city
+- Group by multiple columns
+- Calculate average marks for each city
+
+### 🎯 HAVING Clause
+
+- Filter grouped results
+- Use aggregate functions inside `HAVING`
+- Combine `WHERE`, `GROUP BY`, `HAVING`, and `ORDER BY`
+
+---
+
+## 🧠 Concepts Learned
+
+- Used aggregate functions to summarize data.
+- Grouped records using `GROUP BY`.
+- Calculated aggregate values for each group.
+- Filtered grouped results using `HAVING`.
+- Sorted grouped results using `ORDER BY`.
+
+---
+
+## 🚀 Progress
+
+- ✅ Day 01 — SQL Basics
+- ✅ Day 02 — Constraints
+- ✅ Day 03 — SELECT, WHERE, LIMIT & ORDER BY
+- ✅ Day 04 — Aggregate Functions, GROUP BY & HAVING
