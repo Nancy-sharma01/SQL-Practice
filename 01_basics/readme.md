@@ -272,3 +272,101 @@ Created multiple tables using different constraints and observed their behavior 
 - ✅ Day 02 — Constraints
 - ✅ Day 03 — SELECT, WHERE, LIMIT & ORDER BY
 - ✅ Day 04 — Aggregate Functions, GROUP BY & HAVING
+
+---
+
+## 📅 Day 05 — UPDATE, DELETE & FOREIGN KEY
+
+### 📚 Topics Covered
+
+- UPDATE statement
+- Updating single and multiple records
+- Using WHERE with UPDATE
+- Arithmetic update (`marks = marks + 1`)
+- DELETE statement
+- Deleting specific records using WHERE
+- Foreign Key
+- Parent and Child tables
+- Cascading (`ON UPDATE CASCADE`, `ON DELETE CASCADE`)
+- Testing cascade operations
+
+---
+
+### 📝 Queries Practiced
+
+#### UPDATE
+
+```sql
+UPDATE student
+SET grade='O'
+WHERE grade='A';
+```
+
+```sql
+UPDATE student
+SET marks=82
+WHERE roll_no=105;
+```
+
+```sql
+UPDATE student
+SET grade='B'
+WHERE marks BETWEEN 80 AND 90;
+```
+
+```sql
+UPDATE student
+SET marks = marks + 1;
+```
+
+---
+
+#### DELETE
+
+```sql
+DELETE FROM student
+WHERE marks < 33;
+```
+
+---
+
+#### FOREIGN KEY
+
+Created two tables:
+
+- `dept`
+- `teacher`
+
+Linked them using a Foreign Key.
+
+```sql
+FOREIGN KEY (dept_id)
+REFERENCES dept(id)
+ON UPDATE CASCADE
+ON DELETE CASCADE;
+```
+
+---
+
+### 🔄 Cascade Demonstration
+
+Updated department ID:
+
+```sql
+UPDATE dept
+SET id = 103
+WHERE id = 102;
+```
+
+Observed that the corresponding `dept_id` inside the **teacher** table was automatically updated because of **ON UPDATE CASCADE**.
+
+---
+
+### 🎯 Concepts Learned
+
+- How UPDATE modifies existing records.
+- Importance of the WHERE clause while updating or deleting.
+- Difference between deleting specific rows and deleting an entire table's data.
+- Relationship between Parent and Child tables.
+- How Foreign Keys maintain referential integrity.
+- Working of ON UPDATE CASCADE and ON DELETE CASCADE.
