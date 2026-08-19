@@ -12,6 +12,7 @@ This repository documents my journey of learning SQL for **Software Development*
 
 ## 📚 Learning Roadmap
 
+### Basics
 - [x] SQL Basics
 - [x] Creating Tables & Constraints
 - [x] SELECT Statements
@@ -21,12 +22,16 @@ This repository documents my journey of learning SQL for **Software Development*
 - [x] GROUP BY & HAVING
 - [x] UPDATE & DELETE
 - [x] Foreign Keys & Cascading
+
+### Intermediate
 - [ ] JOINS
 - [ ] Subqueries
 - [ ] Common Table Expressions (CTEs)
 - [ ] Window Functions
 - [ ] Views
 - [ ] Indexes
+
+### Advanced
 - [ ] SQL Optimization
 - [ ] LeetCode SQL Problems
 - [ ] Mini Projects
