@@ -19,6 +19,8 @@ This repository documents my journey of learning SQL for **Software Development*
 - [x] Sorting (`ORDER BY`)
 - [x] Aggregate Functions
 - [x] GROUP BY & HAVING
+- [x] UPDATE & DELETE
+- [x] Foreign Keys & Cascading
 - [ ] JOINS
 - [ ] Subqueries
 - [ ] Common Table Expressions (CTEs)
