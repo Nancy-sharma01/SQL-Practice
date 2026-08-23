@@ -370,3 +370,194 @@ Observed that the corresponding `dept_id` inside the **teacher** table was autom
 - Relationship between Parent and Child tables.
 - How Foreign Keys maintain referential integrity.
 - Working of ON UPDATE CASCADE and ON DELETE CASCADE.
+
+---
+
+# 📘 SQL Practice — Day 06
+
+## 🗓️ Day 06 — ALTER, MODIFY, CHANGE, RENAME & TRUNCATE
+
+Today I continued practicing **table-related SQL queries**, mainly focusing on modifying the structure of existing tables and managing table data.
+
+---
+
+## 🎯 Topics Covered
+
+* `ALTER TABLE`
+* Adding a new column
+* Dropping a column
+* Adding a column with `NOT NULL` and `DEFAULT`
+* Modifying a column using `MODIFY`
+* Changing/Renaming a column using `CHANGE`
+* Renaming a table
+* `TRUNCATE TABLE`
+
+---
+
+## 🛠️ Queries Practiced
+
+### 1. Selecting the Database
+
+```sql
+USE college;
+```
+
+---
+
+### 2. Adding a New Column
+
+Added an `age` column to the existing `student` table.
+
+```sql
+ALTER TABLE student
+ADD COLUMN age INT;
+```
+
+Then checked the updated table:
+
+```sql
+SELECT * FROM student;
+```
+
+---
+
+### 3. Dropping a Column
+
+Removed the `age` column from the `student` table.
+
+```sql
+ALTER TABLE student
+DROP COLUMN age;
+```
+
+---
+
+### 4. Adding a Column with `NOT NULL` and `DEFAULT`
+
+Added the `age` column again with a `NOT NULL` constraint and a default value of `19`.
+
+```sql
+ALTER TABLE student
+ADD COLUMN age INT NOT NULL DEFAULT 19;
+```
+
+This automatically assigns `19` to existing rows where a value is required.
+
+---
+
+### 5. Modifying a Column
+
+Changed the data type of the `age` column from `INT` to `VARCHAR(2)`.
+
+```sql
+ALTER TABLE student
+MODIFY COLUMN age VARCHAR(2);
+```
+
+---
+
+### 6. Testing Data Type Constraints
+
+Tried inserting a value that does not fit into the modified column definition:
+
+```sql
+INSERT INTO student
+(roll_no, name, marks, age)
+VALUES
+(107, 'Gargi', 68, 100);
+```
+
+This produces an error because `VARCHAR(2)` can store a maximum of **2 characters**, while `100` contains **3 characters**.
+
+---
+
+### 7. Renaming a Column Using `CHANGE`
+
+Renamed the `age` column to `stu_age` and changed its data type back to `INT`.
+
+```sql
+ALTER TABLE student
+CHANGE age stu_age INT;
+```
+
+Then inserted data using the new column name:
+
+```sql
+INSERT INTO student
+(roll_no, name, marks, stu_age)
+VALUES
+(107, 'Gargi', 68, 100);
+```
+
+Finally, checked the table:
+
+```sql
+SELECT * FROM student;
+```
+
+---
+
+### 8. Renaming a Table
+
+Renamed the `student` table to `stu`.
+
+```sql
+ALTER TABLE student
+RENAME TO stu;
+```
+
+Then renamed it back to `student`.
+
+```sql
+ALTER TABLE stu
+RENAME TO student;
+```
+
+---
+
+### 9. Using `TRUNCATE TABLE`
+
+Removed all records from the `teacher` table:
+
+```sql
+TRUNCATE TABLE teacher;
+```
+
+Then verified the table:
+
+```sql
+SELECT * FROM teacher;
+```
+
+`TRUNCATE` removes all rows while keeping the table structure intact.
+
+---
+
+## 🧠 Key Learnings
+
+| Command          | Purpose                                          |
+| ---------------- | ------------------------------------------------ |
+| `ALTER TABLE`    | Modify an existing table                         |
+| `ADD COLUMN`     | Add a new column                                 |
+| `DROP COLUMN`    | Remove a column                                  |
+| `MODIFY COLUMN`  | Change column datatype/constraints               |
+| `CHANGE`         | Rename a column and modify its definition        |
+| `RENAME TO`      | Rename a table                                   |
+| `TRUNCATE TABLE` | Remove all records while keeping table structure |
+
+---
+
+## ⚡ Important Difference
+
+### `DELETE` vs `TRUNCATE` vs `DROP`
+
+| Command    | Effect                                           |
+| ---------- | ------------------------------------------------ |
+| `DELETE`   | Removes rows from a table                        |
+| `TRUNCATE` | Removes all rows but keeps the table             |
+| `DROP`     | Removes the entire table including its structure |
+
+---
+
+
+
