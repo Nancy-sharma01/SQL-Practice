@@ -79,23 +79,25 @@ SQL-Practice/
 
 ---
 
-| Topic | Status |
-|--------|--------|
-| SQL Basics (Databases, Tables & Constraints) | ✅ Completed |
-| SELECT & Filtering (WHERE, ORDER BY, LIMIT, DISTINCT) | ✅ Completed |
-| Aggregate Functions | ✅ Completed |
-| GROUP BY & HAVING | ✅ Completed |
-| UPDATE & DELETE | ✅ Completed |
-| Foreign Keys & Cascading | ✅ Completed |
-| JOINS | ⏳ Not Started |
-| Subqueries | ⏳ Not Started |
-| Window Functions | ⏳ Not Started |
-| CTEs | ⏳ Not Started |
-| Views | ⏳ Not Started |
-| Indexes | ⏳ Not Started |
-| SQL Optimization | ⏳ Not Started |
-| LeetCode SQL | ⏳ Not Started |
-| Mini Projects | ⏳ Not Started |
+| **Topic**                                             | **Status**       |
+| ----------------------------------------------------- | ---------------- |
+| SQL Basics (Databases, Tables & Constraints)          | ✅ Completed     |
+| SELECT & Filtering (WHERE, ORDER BY, LIMIT, DISTINCT) | ✅ Completed     |
+| Aggregate Functions                                   | ✅ Completed     |
+| GROUP BY & HAVING                                     | ✅ Completed     |
+| UPDATE & DELETE                                       | ✅ Completed     |
+| Foreign Keys & Cascading                              | ✅ Completed     |
+| ALTER TABLE                                           | ✅ Completed     |
+| RENAME & TRUNCATE                                     | ✅ Completed     |
+| JOINS                                                 | ⏳ Not Started   |
+| Subqueries                                            | ⏳ Not Started   |
+| Window Functions                                      | ⏳ Not Started   |
+| CTEs                                                  | ⏳ Not Started   |
+| Views                                                 | ⏳ Not Started   |
+| Indexes                                               | ⏳ Not Started   |
+| SQL Optimization                                      | ⏳ Not Started   |
+| LeetCode SQL                                          | ⏳ Not Started   |
+| Mini Projects                                         | ⏳ Not Started   |
 
 ---
 
