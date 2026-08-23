@@ -22,6 +22,8 @@ This repository documents my journey of learning SQL for **Software Development*
 - [x] GROUP BY & HAVING
 - [x] UPDATE & DELETE
 - [x] Foreign Keys & Cascading
+- [x] ALTER TABLE
+- [x] RENAME & TRUNCATE
 
 ### Intermediate
 - [ ] JOINS
