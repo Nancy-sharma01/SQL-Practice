@@ -89,7 +89,7 @@ SQL-Practice/
 | Foreign Keys & Cascading                              | ✅ Completed     |
 | ALTER TABLE                                           | ✅ Completed     |
 | RENAME & TRUNCATE                                     | ✅ Completed     |
-| JOINS                                                 | ⏳ Not Started   |
+| JOINS                                                 | ✅ Completed   |
 | Subqueries                                            | ⏳ Not Started   |
 | Window Functions                                      | ⏳ Not Started   |
 | CTEs                                                  | ⏳ Not Started   |
