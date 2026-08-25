@@ -26,7 +26,7 @@ This repository documents my journey of learning SQL for **Software Development*
 - [x] RENAME & TRUNCATE
 
 ### Intermediate
-- [ ] JOINS
+- [x] JOINS
 - [ ] Subqueries
 - [ ] Common Table Expressions (CTEs)
 - [ ] Window Functions
