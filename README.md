@@ -27,7 +27,7 @@ This repository documents my journey of learning SQL for **Software Development*
 
 ### Intermediate
 - [x] JOINS
-- [ ] Subqueries
+- [x] Subqueries
 - [ ] Common Table Expressions (CTEs)
 - [ ] Window Functions
 - [ ] Views
