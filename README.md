@@ -90,7 +90,7 @@ SQL-Practice/
 | ALTER TABLE                                           | ✅ Completed     |
 | RENAME & TRUNCATE                                     | ✅ Completed     |
 | JOINS                                                 | ✅ Completed   |
-| Subqueries                                            | ⏳ Not Started   |
+| Subqueries                                            | ✅ Completed  |
 | Window Functions                                      | ⏳ Not Started   |
 | CTEs                                                  | ⏳ Not Started   |
 | Views                                                 | ⏳ Not Started   |
