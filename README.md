@@ -6,7 +6,7 @@
 
 Welcome to my **SQL Practice** repository!
 
-This repository documents my journey of learning SQL for **Software Development**, **Data Analytics**, **Data Science**, and **Machine Learning**. It contains practice queries, exercises, problem-solving, and mini projects that strengthen my SQL skills through hands-on learning.
+This repository documents my journey of learning SQL for **Software Development**, **Data Analytics**, **Data Science**, and **Machine Learning**. It contains practice queries, exercises, problem-solving, and some mini projects that strengthen my SQL skills through hands-on learning.
 
 ---
 
