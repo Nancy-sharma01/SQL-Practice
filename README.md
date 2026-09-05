@@ -72,7 +72,6 @@ SQL-Practice/
 
 ## 🛠️ Tools & Technologies
 
-- MySQL
 - MySQL Workbench
 - VS Code
 - Git & GitHub
