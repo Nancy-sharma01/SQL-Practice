@@ -22,7 +22,7 @@ I'm using this challenge to:
 
 **Goal:** Solve all 50 problems from the LeetCode SQL 50 Study Plan.
 
-**Progress:** `0 / 50` → 🔄 In Progress
+**Progress:** `9 / 50` → 🔄 In Progress
 
 Each solved problem is added to this folder as a separate `.sql` file.
 
