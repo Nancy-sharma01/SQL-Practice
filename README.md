@@ -90,7 +90,7 @@ SQL-Practice/
 | RENAME & TRUNCATE                                     | ✅ Completed     |
 | JOINS                                                 | ✅ Completed   |
 | Subqueries                                            | ✅ Completed  |
-| Window Functions                                      | ⏳ Not Started   |
+| Window Functions                                      | ⏳ In progress   |
 | CTEs                                                  | ⏳ Not Started   |
 | Views                                                 | ⏳ Not Started   |
 | Indexes                                               | ⏳ Not Started   |
