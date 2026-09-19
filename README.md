@@ -35,7 +35,7 @@ This repository documents my journey of learning SQL for **Software Development*
 
 ### Advanced
 - [ ] SQL Optimization
-- [ ] LeetCode SQL Problems
+- [x] LeetCode SQL Problems — 9 solved
 - [ ] Mini Projects
 
 ---
